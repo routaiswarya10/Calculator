@@ -1,0 +1,37 @@
+/* ------ style.css ------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div {
+    text-align: center;
+}
+
+div input {
+    margin: 0 2px;
+    padding: 2px 0;
+    border: 0px lightgrey;
+    background-color: lightgrey;
+}
+
+div button {
+    margin: 0 4px;
+    padding: 6px 0;
+    width: 62px;
+    border: 1px rgb(20, 20, 20);
+    background-color: grey;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
